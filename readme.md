@@ -6,11 +6,8 @@
 
 <pre><code>
 git clone https://android.googlesource.com/platform/manifest.git
-
 cd manifest
-
 git tag
-
 git checkout android-4.4.2_r1
 </code></pre>
 修改download_src.py
