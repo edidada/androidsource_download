@@ -5,10 +5,10 @@ from subprocess import call
 rootdir = "G:/android_android-6.0.1-r9_source"  
 
 git = "C:/Program Files/Git/bin/git.exe"  
-      
+
 dom = xml.dom.minidom.parse("G:/manifest/default.xml")  
 root = dom.documentElement  
-      
+
 prefix = git + " clone https://aosp.tuna.tsinghua.edu.cn/"  
 suffix = ".git"  
       
