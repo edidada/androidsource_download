@@ -36,3 +36,10 @@ jobs:
         cmake --build $build_dir
         dir
         cd $build_dir
+    - name: run shell
+      run: |
+        git clone https://android.googlesource.com/platform/manifest.git
+        cd manifest
+        git tag
+        git checkout android-4.4.2_r1
+        python windows/download_src.py
